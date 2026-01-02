@@ -9,7 +9,7 @@ import { ApiService } from '../../services/api';
   standalone: true,
   imports: [CommonModule, FormsModule, RouterModule],
   templateUrl: './signup.html',
-  styleUrl: './signup.css'
+  styleUrls: ['./signup.css']
 })
 export class Signup {
   email = signal('');

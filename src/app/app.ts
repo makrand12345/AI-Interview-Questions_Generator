@@ -9,6 +9,6 @@ import { Navbar } from './components/navbar/navbar';
   standalone: true,
   imports: [CommonModule, HttpClientModule, RouterModule, RouterOutlet, Navbar],
   templateUrl: './app.html',
-  styleUrl: './app.css'
+  styleUrls: ['./app.css']
 })
 export class App {}

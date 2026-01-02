@@ -9,7 +9,7 @@ import { ApiService } from '../../services/api';
   standalone: true,
   imports: [CommonModule, FormsModule],
   templateUrl: './question-generator.html',
-  styleUrl: './question-generator.css'
+  styleUrls: ['./question-generator.css']
 })
 export class QuestionGenerator {
   jobRole = signal('');

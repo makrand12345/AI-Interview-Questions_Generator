@@ -8,7 +8,7 @@ import { ApiService } from '../../services/api';
   standalone: true,
   imports: [CommonModule, RouterModule],
   templateUrl: './navbar.html',
-  styleUrl: './navbar.css'
+  styleUrls: ['./navbar.css']
 })
 export class Navbar {
   constructor(public api: ApiService, private router: Router) {}
