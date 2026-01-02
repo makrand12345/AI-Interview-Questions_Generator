@@ -1,0 +1,11 @@
+<nav class="navbar">
+  <div class="logo" routerLink="/">AI Interviewer</div>
+  <div class="nav-links">
+    @if (api.token()) {
+      <button class="logout-link" (click)="logout()">Logout</button>
+    } @else {
+      <a routerLink="/login" routerLinkActive="active">Login</a>
+      <a routerLink="/signup" routerLinkActive="active">Sign Up</a>
+    }
+  </div>
+</nav>
